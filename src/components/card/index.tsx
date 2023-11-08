@@ -5,6 +5,8 @@ export const Card = (props: { url: string; id: number }) => {
     <div
       className={css`
         position: relative;
+        width: 100%;
+        height: 100%;
       `}
     >
       <iframe
@@ -20,7 +22,7 @@ export const Card = (props: { url: string; id: number }) => {
         `}
         src={props.url}
       />
-      <div
+      {/* <div
         className={css`
           position: absolute;
           bottom: 0;
@@ -31,8 +33,8 @@ export const Card = (props: { url: string; id: number }) => {
           overflow: hidden;
           color: #ffffff;
         `}
-      >
-        <div
+      > */}
+      {/* <div
           className={css`
             position: absolute;
             left: 16px;
@@ -44,8 +46,8 @@ export const Card = (props: { url: string; id: number }) => {
           `}
         >
           Камера {props.id}
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 };

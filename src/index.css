@@ -11,11 +11,3 @@ body,
 #root {
   display: grid;
 }
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(auto-fill, 9fr);
-  gap: 16px;
-  padding: 16px;
-}
