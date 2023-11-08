@@ -1,10 +1,10 @@
-import "./App.css";
 import { cameras, getVideoURL, videos } from "./constants";
 import { Card } from "./components/card";
+import "./index.css";
 
 function App() {
   return (
-    <div class="container">
+    <div className="container">
       {videos.map((video) => {
         if (cameras.includes(video.id)) {
           return (

@@ -3,12 +3,12 @@ import { css } from "@emotion/css";
 export const Card = (props: { url: string; id: number }) => {
   return (
     <div
-      class={css`
+      className={css`
         position: relative;
       `}
     >
       <iframe
-        class={css`
+        className={css`
           position: absolute;
           top: 0;
           left: 0;
@@ -21,7 +21,7 @@ export const Card = (props: { url: string; id: number }) => {
         src={props.url}
       />
       <div
-        class={css`
+        className={css`
           position: absolute;
           bottom: 0;
           width: 100%;
@@ -33,7 +33,7 @@ export const Card = (props: { url: string; id: number }) => {
         `}
       >
         <div
-          class={css`
+          className={css`
             position: absolute;
             left: 16px;
             bottom: 50%;
